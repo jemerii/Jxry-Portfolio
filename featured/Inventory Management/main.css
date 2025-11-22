@@ -1,0 +1,83 @@
+body, html {
+    background-color: #375062;
+    font-family: Poppins;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.auth-div {
+    background-color: #557C99;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+}
+
+.auth-title {
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+}
+
+#username, #password {
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Poppins;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#buttonLogin {
+    border: none;
+    background-color: #9DB5C9;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+#buttonLogin:hover {
+    background-color: white;
+    color: #9DB5C9;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#error {
+    font-family: Poppins;
+    text-align: center;
+    color: white;
+}
+
